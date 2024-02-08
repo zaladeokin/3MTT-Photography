@@ -1,0 +1,57 @@
+@import url("./style.css");
+
+@media screen and (max-width: 750px) {
+
+    .parallex-container{
+        background-size: 100vw;
+        background-position: center top;
+        background-attachment: scroll;
+    }
+
+    #about{
+        background-color: #5a85eb;
+    }
+
+    #about h1 span:first-child{
+        font-size: 2em;
+    }
+
+    #about h1 span:last-child{
+        font-size: 0.5em;
+    }
+
+    .info{
+        margin-bottom: 10vmin;
+    }
+
+    #portfolio{
+        background-color: #abccf5;
+        padding: 0;
+    }
+
+    .filler {
+        display: none;
+    }
+
+    .buffer{
+        background-size: 100%;
+    }
+
+    .frame{
+        width: 100%;
+    }
+
+    .frame > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frame img{
+        max-width: 90%;
+    }
+
+    footer{
+        background-color: #545b35;
+    }
+
+}

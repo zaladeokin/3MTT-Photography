@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body, main, header {
     margin: 0;
     padding: 0;
@@ -5,15 +9,12 @@ body, main, header {
 }
 
 h1 {
-    min-height: 25vh;
     color: #fff;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .parallex-container{
-    /* background-color: aquamarine; */
-    box-sizing: border-box;
     margin: 0;
     padding: 2vmin 5vmin; 
 
@@ -32,8 +33,6 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-content: center; */
 }
 
 #about h1 span:first-child {
@@ -89,7 +88,6 @@ h1 {
 /*Buffer section*/
 
 .buffer{
-    box-sizing: border-box;
     background-image: url("../img/section-1a.png");
     background-size: 50%;
     background-repeat: no-repeat;
@@ -118,7 +116,6 @@ h1 {
 
 /*Frame Layout and design*/
 .frame{
-    box-sizing: border-box;
     width: 70%;
     margin: 0 auto;
     padding: 0;
